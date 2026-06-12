@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    overflow:hidden;
+    font-family:Arial;
+}
+
+#landing{
+    position:absolute;
+    width:100%;
+    height:100vh;
+
+    background:black;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    z-index:100;
+}
+
+button{
+    padding:10px 20px;
+    font-size:20px;
+    cursor:pointer;
+}
